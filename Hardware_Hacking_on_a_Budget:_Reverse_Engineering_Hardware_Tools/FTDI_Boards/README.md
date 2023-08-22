@@ -1,6 +1,6 @@
 # FTDI Adapter Boards
 
-This directory contains all relavent information for the FTDI boards for TXCYSUMMIT23. 
+This directory contains all relavent information for the FTDI boards for TXCYSUMMIT23. If you would like to fab one yourself, the attached gerber files are in the zip folder. 
 
 ### Step 1
 
