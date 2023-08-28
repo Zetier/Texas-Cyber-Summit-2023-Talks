@@ -34,9 +34,18 @@ After placing the components on their respective place, you can put the headers 
 
 ### Step 5 - Optional
 
-Place a little bit of solder on the USB pins. Make them bigger. It helps with the connection. This is not mandatory but helps with the board connecting to your usb ports. 
+Place a little bit of solder on the USB pins. Make them bigger. It helps with the connection. This is not mandatory but helps with the board connecting to your usb ports. During step 5, you can also go through the diodes with a multimeter to make sure they are facing the same way. 
+
+![DSC03951](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/63ba30bb-5287-4683-bf4d-9857ad3052a9)
 
 ### Step 6
+
+Now that everything is assembled and checked, plug it in! Some of the LED's will light up. If you are using windows it should enumerate as a ft232rl, if linux, type 'lsusb' and if everything is assembled correctly it should show up on your terminal. 
+
+![DSC03953](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/58bd099a-170a-4bbb-905d-62ac7864b71f)
+
+
+### Step 7
 
 Now find a uart port on hardware. This is fairly simple. If your tool lights up when you plug it in, you will be able to connect to a piece of hardware and communicate with it (if the UART is not locked down). 
 
