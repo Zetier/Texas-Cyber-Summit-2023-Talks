@@ -43,6 +43,8 @@ Place a little bit of solder on the USB pins. Make them bigger. It helps with th
 Now that everything is assembled and checked, plug it in! Some of the LED's will light up. If you are using windows it should enumerate as a ft232rl, if linux, type 'lsusb' and if everything is assembled correctly it should show up on your terminal. 
 
 ![DSC03953](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/58bd099a-170a-4bbb-905d-62ac7864b71f)
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/f792fe3e-ca03-44ca-b2b5-979c7b5029d1)
+
 
 
 ### Step 7
