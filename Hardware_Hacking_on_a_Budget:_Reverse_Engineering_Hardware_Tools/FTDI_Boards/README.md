@@ -49,7 +49,7 @@ Now that everything is assembled and checked, plug it in! Some of the LED's will
 
 ### Step 7
 
-Now find a uart header on hardware. This is fairly simple. If your tool lights up when you plug it in, you will be able to connect to a piece of hardware and communicate with it (if the UART is not locked down on the target device). Here is a link on how to find a UART and if unlocked, get a shell. You may need a few dupont wires for this part or you can use whatever wire or cables you have around the house. 
+Now find a uart header on hardware. This is fairly simple as you are looking for 2,3,or 4 holes/pads on an electronic. Here is a link on how to find a UART and if unlocked, get a shell. You may need a few dupont wires for this part or you can use whatever wire or cables you have around the house. 
 Dupont wires: https://www.amazon.com/ELEGOO-Breadbord-Jumper-Wires/dp/B0B2W22XHB
 Youtube: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjHuOqfjoCBAxXBlGoFHYlgCDwQz40FegQIDRAz&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZmZuKA-Rst0&usg=AOvVaw0cxxeIhTwcsS4VcE5sFbwF&opi=89978449
 
