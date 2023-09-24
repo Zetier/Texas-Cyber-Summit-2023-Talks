@@ -1,6 +1,6 @@
 # OMG Demonseed clones
 
-The OMG Demonseed is an opensource project located [here](https://github.com/O-MG/DemonSeed). It has narratives on youtube [here]() and can be used as an RF triggerable usb implant. It is not even close to having the features of the OMG cable but for a beginner project will suffice. It is very simple and easy to build in kicad. 
+The OMG Demonseed is an opensource project located [here](https://github.com/O-MG/DemonSeed). It has narratives on youtube [here](https://youtu.be/QQ1p2tPWZbM?feature=shared) and can be used as an RF triggerable usb implant. It is not even close to having the features of the OMG cable but for a beginner project will suffice. It is very simple and easy to build in kicad. The reason this device was chosen was because: it is expensive compared to the components it is made of, it is regularly out of stock, it is easy and cheap to DIY, and the git could be taken down at some point. Having the knoweldge of how to build this tool can allow reproduction of it. Plus, its super darn cool. 
 # 1) Install Kicad
 Kicad can be found [here](https://www.kicad.org/). Debian is sudo apt install kicad or arch sudo pacman -Syu kicad. 
 # 2) Open Kicad 
@@ -53,7 +53,32 @@ Your schematic should now look like this.
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/82b9de1e-7178-412c-a1f2-81121649c7d6)
 
- 
+Placing the USB connector (and every other component) is just as easy. 
 
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/55de0e2b-01db-4556-a6dc-50eaa95430c5)
+
+Schematic should now look like this. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/a3a74b15-ee26-4612-9165-f53e9c141e4d)
+
+The issue is the USB connector is facing the wrong way. To spin it around, select it and hit the R key. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/a3bd9726-ed11-42a2-ab4d-935554562bd5)
+
+There, thats better. Now for both of these parts a "footprint" needs to be associated with them. Every component we place needs a footprint. The associated footprint will be what the PCB manufacturer will use to expose connections to solder to. If you dont associate footprints to your symbols, your PCB will surely not work (or at least later in this tutorial it will be much more work).
+
+To associate footprints, double click on the symbol. This will bring up a table with all of the attributes of the symbol and allow you to edit it. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/34098cb4-556b-4c9c-9c03-029334a81fcf)
+
+In this case, the ATTiny is selected. There should be a book in the footprint bar. Click it. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/4e328acd-62b3-4aeb-b370-d8a584cff762)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/135b9634-1275-4d08-8bed-02817723093f)
+
+In this case, the footprint is correct for the part selected. You can exit out and go back to the schematic view. 
+
+The USB footprint has to be changed. 
 
 
