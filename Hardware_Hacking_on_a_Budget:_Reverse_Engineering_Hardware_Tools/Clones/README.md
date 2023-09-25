@@ -85,5 +85,40 @@ The USB footprint has to be changed. Double click on the USB symbol and open the
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/40d66ed6-a82d-4289-8c53-db0d74115af3)
 
+Last large component in this circuit is the programming header. The "pad and pogopin" layout is just a bit much for me. Plus it is more expensive. Putting in a 1.0mm pitch (seperation) header will be cheap, slim, and easy. Wires can also just be soldered to this or custom headers can be used. For referenece this is what a 1.0 mm header looks like: 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/00ccc047-ae8c-4224-a872-7411b2876d0c)
+
+To place the symbol, go to the browser and search for connector_generic in the libraries and search for 2x06 in the symbols search. Pick the odd even one. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/88992c96-b9da-4884-b1d9-7f0dd8a949f4)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/bb58e14c-5593-4217-94b1-f496b2221acd)
+
+Schematic should now look like this. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/1f4f9022-c272-4eab-915f-991a6591410b)
+
+Time to choose a footprint.
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/ac4de1ff-f14f-49b1-848d-bb2e4d89ea48)
+
+Search for a footprint. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/d0836ac1-c2f1-4c0f-8012-68d4435bfca6)
+
+Great! Now that the main components are specified, we have 3 things left with the schematic: create nets and route wires, place electrical symbols, and place electrical compontents. For the rest of this tutorial use the devices and power symbols respectively. 
+
+To place the electrical components, browse the symbols libraries for devices and search for "R". 
+
+
+
+
+
+
+
+
+
+
 
 
