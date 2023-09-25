@@ -113,9 +113,11 @@ Great! Now that the main components are specified, we have 3 things left with th
 
 To place the electrical components, browse the symbols libraries for devices and search for "R". 
 
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/88992c96-b9da-4884-b1d9-7f0dd8a949f4)
+
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/7fe2674d-732c-4bdf-a167-8241728506d8)
 
-![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/88992c96-b9da-4884-b1d9-7f0dd8a949f4)
+
 
 
 
