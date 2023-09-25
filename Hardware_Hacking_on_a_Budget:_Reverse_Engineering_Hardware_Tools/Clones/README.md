@@ -136,7 +136,7 @@ Demonseed Schematic:
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/be488ebd-c988-4111-b5de-01ea11a712d9)
 
-They are looking quite similar. Time to add values to match the resistor values. To do this, double click on a resistor and change the value tab to match the number from the OMG demonseed value. 
+They are looking quite similar. Time to add values to match the resistor values. To do this, double click on a resistor and change the value tab to match the number from the OMG demonseed value. There are 2 68 ohm resistors and a 1.5k resistor. All of them are for the USB connection. 
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/dad8a894-5f68-4daf-b90b-4e0a7503e714)
 
@@ -152,7 +152,7 @@ To place diodes, it is a very similar process. There are 2. Select the browser a
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/b5914c6a-9454-409d-8803-1db8c57cc988)
 
-The schematic should now look like this. Time to add the associated footprint to the diode. Very similar to resistors and same size. 0805. Search this in the footprint browser for the diodes. 
+The schematic should now look like this. Time to add the associated footprint to the diode. Very similar to resistors and same size. 0805. Search this in the footprint browser for the diodes.
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/fb1e2dc8-8f55-49e3-993c-3054e8cd468d)
 
@@ -165,21 +165,32 @@ Copy the diode and rotate the copied one 180 degrees to match the demonseed sche
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/85484901-92e9-483e-85b8-a1119cc1eb48)
 
+Now just edit the associated values to match that of the demonseed schematic. In this case, both are 3.6v.
 
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/38d4c00e-be88-4c47-ba43-6dfceb4289ac)
 
+The schematic should now look like this. 
 
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/3b65bcf5-7c3c-420c-8c8e-074bfc7047cc)
 
+Cool, so we only have 2 things left. Create nets and wire connections and placing our power and ground. Pretty simple. 
 
+Routing power is just copying the symbols from the OMG demonseed schematic. Search for the power library in the symbol browser and search for GND. Place one on the schematic connecting to the ATTiny GND pin on pin 8. 
 
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/88992c96-b9da-4884-b1d9-7f0dd8a949f4)
 
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/d55abfd7-28de-4dd4-80cd-20692e7ded7c)
 
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/73a265c9-6dbe-4298-81b9-4572f5979939)
 
+Copy and paste the ground to the diodes and the USB ground. The schematic should now look like this (also saw the diodes had "zenier" in them and made an edit to the value as this is a certian type of diode). 
 
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/207df24b-1cbf-43d1-9f28-b578b1115a59)
 
+The circuit now needs 5v from the USB port. USB produces 5V. The schematic has a 5V on the USB connection, the ATTiny, and the 1.5K resistor. To place, search the symbol browser libraries for power and the symbols for 5V. 
 
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/88992c96-b9da-4884-b1d9-7f0dd8a949f4)
 
-
-
-
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/daa1cb72-4d6f-409a-8592-e48d99ff169f)
 
 
