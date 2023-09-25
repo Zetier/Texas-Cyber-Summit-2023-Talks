@@ -119,9 +119,11 @@ To place the electrical components, browse the symbols libraries for devices and
 
 To change the resistor footprint, click on the three books. Were going to associate a footprint to our resistors on the board. 
 
-
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/ac4de1ff-f14f-49b1-848d-bb2e4d89ea48)
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/3f7dcdc2-1afe-4b58-a293-4ebafa169c79)
+
+
 
 
 
