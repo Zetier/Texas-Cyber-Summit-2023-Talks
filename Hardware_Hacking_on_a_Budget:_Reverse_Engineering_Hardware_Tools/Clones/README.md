@@ -21,6 +21,8 @@ A new project should now appear in the left file navigator.
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/d4d01bac-1769-4fd0-a6cc-8e0dbac99658)
 
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/72c0b381-5a63-4485-9dd1-c28d0649b73e)
+
 # 4) Jump into new schematic
 
 To open the schematic viewer, simply click on the schematic file. 
