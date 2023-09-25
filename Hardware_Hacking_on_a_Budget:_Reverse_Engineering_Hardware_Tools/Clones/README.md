@@ -255,8 +255,14 @@ First export your files as gerbers.
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/78276312-a4e8-4805-8c36-2d1bf56d9bbf)
 
+Now zip the output directory up. On linux use terminal zip command. Windows navigate to the output dir and send to zip file. 
+
+Upload this to [Oshpark](https://oshpark.com/). It should give you a price and you can order this. To get the components, rever to the BOM on the OMG demonseed git at the top. In this case it was $2.20 for 3 (not including shipping). 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/3a36a2ea-e7e0-4dd5-9c91-a00f031a3183)
 
 
+And thats it! You now have created a clone from reverse engineering a tool!
 
 
 
