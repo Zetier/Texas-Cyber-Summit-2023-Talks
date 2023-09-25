@@ -193,4 +193,76 @@ The circuit now needs 5v from the USB port. USB produces 5V. The schematic has a
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/daa1cb72-4d6f-409a-8592-e48d99ff169f)
 
+Add the 5V to the USB, ATTiny, and 1.5K resistor. VCC and VBUS are both power pins on the USB and ATTiny. The schematic should look like this. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/a35c8508-f6f0-4ead-9f3b-debe7d70af12)
+
+Now that power and gnd is placed, wires and connections have to be made between the components. To do this simply click the add a wire button, click the circle on a component or hit W on the keyboard. Route the wires to connect exactily like the OMG demonseed. Here is mine post routing. (edited the ground on usb pin as well to be connected to shield in this step)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/a2016c6f-6e3f-4ecc-af87-ab49dc98a819)
+
+Very last thing to do is to create our header connection. I found that it was much quicker to just scratch some of the wires around and connect them to the header directly. MAKE SURE YOU DO NOT HAVE ANY GREEN CIRCLES IN UNINTENDED LOCATIONS. These signify a connection and will short. To avoid this, go around thing and use excess wire. Your schematic should now look something like this. Refer to the OMG demonseed schematic for programming lines (mosi miso sck rst). 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/3a32c7b2-ee03-4faa-b55a-3074bae0f2db)
+
+Too easy. On to the PCB. To change to the PCB, click the PCB button and import all of the footprints with the import button. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/dbfef457-06a1-45a5-91da-d7a7f015c387)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/a536cca9-eb2b-455a-88ad-14a63340b2e1)
+
+After updating the schematic, there should now be a blob of red, lines, and colors. Those are the footprints that were specified earlier. simply click somewhere in the middle of the template and hit escape. It should look like this. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/49b2b5eb-757f-470e-8f45-e3e7dcdab2d1)
+
+This is a 2 layer board. Pretend it is a piece of paper. Both sides can be drawn on but it needs to be specified. To move a component to the back side, select it, and hit the F key. The component should show up blue (on the other side). Flip all 3 of your resistors and the USB connector. It should look like this. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/73eee35b-f576-4ac3-944a-62da02aa05f4)
+
+Now we have to rearrange the components to start connecting them with traces. This is how I did mine. It was to conserve space and maintain good trace widths. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/d201488d-9c40-437c-b13f-bcf1d0035c83)
+
+Now connect everything using the x key. Connect everything that has a "silky" white line. These are the nets and connections we made in the schematic editor and they must be connected to make the board work properly. Remember you have 2 layers. To route through the layers use a VIA. Here is an example of a trace I made going from the back of the board to the front through a VIA. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/8f33eee0-c743-403d-8157-2f068de6ee41)
+
+After routing all silky lines and no lines are left you should have a board that looks something like this. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/c609aa9c-21a7-4e0b-9d58-e0065e41f157)
+
+Lastly edge cuts need to be made. This is the final edit to the PCB before exporting it. The edge cuts define how large the PCB will be. Select the Edge.cuts layer in the layer browser and the draw a rectangle from the toolbar. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/f874ef91-4199-43bc-874f-d718e76029b0)
+
+Click to start a rectangle and drag around the perimeter of the PCB. You want to get as close into the parts as you can without pushing them off. This is what mine looked like. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/3ea7d252-20b0-47f0-a0eb-39dd819f6856)
+
+It has a bit of a different shape than the OMG demonseed, however can be put in a USB case and will fit with ease. If you are looking for a certian form factor, moving the components around may help. 
+
+To actually make this board it needs to be exported, zipped, and uploaded to a fabrication house. Osh park is a US based company with a great reputation. I will upload it to there. Here is how to do it. 
+
+First export your files as gerbers.
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/bd545c6f-7f9c-4e22-bcd6-c8cc28baa2c0)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/7b8e8f71-2060-4ed2-b066-59326a19b0e7)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/311dab3d-4f72-441f-b3c8-5019150bf06a)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/62bf769e-311b-49f5-9429-f7cb57aa6799)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/78276312-a4e8-4805-8c36-2d1bf56d9bbf)
+
+
+
+
+
+
+
+
+
+
+
 
