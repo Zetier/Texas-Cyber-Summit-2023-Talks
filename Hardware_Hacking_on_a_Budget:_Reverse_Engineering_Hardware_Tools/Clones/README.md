@@ -117,11 +117,57 @@ To place the electrical components, browse the symbols libraries for devices and
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/7fe2674d-732c-4bdf-a167-8241728506d8)
 
-To change the resistor footprint, click on the three books. Were going to associate a footprint to our resistors on the board. 
+To change the resistor footprint, click on the three books. Were going to associate a footprint to our resistors on the board. In this case, I am choosing a 0805 due to cost and ease of soldering. 1206 is a little big and 0603 requires tweezers. 0805 is a size meaning .08 by .05 inches. 0805 is a generically recommended size for all. 
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/ac4de1ff-f14f-49b1-848d-bb2e4d89ea48)
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/3f7dcdc2-1afe-4b58-a293-4ebafa169c79)
+
+The schematic should now look something like this. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/b34632cb-fe26-4937-b02f-66b0adfaf016)
+
+To copy simply select a component until it highlights blue and right click copy, paste or ctrl+c, ctrl+v. Copy the resistor 2 times to match the schematic that is being cloned. 
+My schematic:
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/44b03504-129c-40b9-9993-c69c92cbab98)
+
+Demonseed Schematic:
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/be488ebd-c988-4111-b5de-01ea11a712d9)
+
+They are looking quite similar. Time to add values to match the resistor values. To do this, double click on a resistor and change the value tab to match the number from the OMG demonseed value. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/dad8a894-5f68-4daf-b90b-4e0a7503e714)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/5faacee3-beab-4525-b426-3e8be7ad25f9)
+
+Repeat this process for the other 2 resistors. Your schematic should look like this. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/4c018b6d-6ffa-4337-a62b-4b479a0720bd)
+
+To place diodes, it is a very similar process. There are 2. Select the browser and search the devices library for a "D". 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/88992c96-b9da-4884-b1d9-7f0dd8a949f4)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/b5914c6a-9454-409d-8803-1db8c57cc988)
+
+The schematic should now look like this. Time to add the associated footprint to the diode. Very similar to resistors and same size. 0805. Search this in the footprint browser for the diodes. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/fb1e2dc8-8f55-49e3-993c-3054e8cd468d)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/ac4de1ff-f14f-49b1-848d-bb2e4d89ea48)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/d159b049-319b-4de2-b583-336a337be495)
+
+
+Copy the diode and rotate the copied one 180 degrees to match the demonseed schematic. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/85484901-92e9-483e-85b8-a1119cc1eb48)
+
+
+
+
 
 
 
