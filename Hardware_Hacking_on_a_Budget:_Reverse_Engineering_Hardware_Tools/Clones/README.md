@@ -117,6 +117,12 @@ To place the electrical components, browse the symbols libraries for devices and
 
 ![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/7fe2674d-732c-4bdf-a167-8241728506d8)
 
+To change the resistor footprint, click on the three books. Were going to associate a footprint to our resistors on the board. 
+
+
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/3f7dcdc2-1afe-4b58-a293-4ebafa169c79)
+
 
 
 
