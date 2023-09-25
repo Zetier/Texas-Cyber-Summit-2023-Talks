@@ -79,6 +79,11 @@ In this case, the ATTiny is selected. There should be a book in the footprint ba
 
 In this case, the footprint is correct for the part selected. You can exit out and go back to the schematic view. 
 
-The USB footprint has to be changed. 
+The USB footprint has to be changed. Double click on the USB symbol and open the footprint browser. 
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/950258c0-f90a-4e51-8fa7-cfc7575c6801)
+
+![image](https://github.com/Zetier/Texas-Cyber-Summit-2023-Talks/assets/142856655/40d66ed6-a82d-4289-8c53-db0d74115af3)
+
 
 
